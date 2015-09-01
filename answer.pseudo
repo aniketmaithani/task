@@ -1,0 +1,12 @@
+import random
+
+
+def random_number(name):
+	""" Function to take "name" as an argument
+	and generate "random number" between 6 to 12
+	"""
+	random_number_generated = random.randrange(6,15)
+	print name, random_number_generated
+
+
+random_number("ANIKET")
